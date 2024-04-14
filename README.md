@@ -10,6 +10,7 @@
     2. Open a pull request to merge your personal branch into the main branch.
     3. Notify the repository owner to accept the pull request.
 5. Make sure to pull into your local repository regularly.
+6. When other changes are merged into main, you must merge these changes into your personal branch before raising a pull request for your own changes.
 
 ## Directory structure
 
@@ -17,6 +18,7 @@
 /models - trained models  
 /notebooks - Jupyter notebooks  
 /docs - documents replicated from Google Docs
+/scripts - other useful scripts and applications
 
 ## Instructions
 ### Creating a SLEAP environment

@@ -1,0 +1,16 @@
+inference:
+- data_path: main.v001.slp
+  models:
+  - models/240409_214243.centroid
+  - models/240409_214243.centered_instance
+  only_suggested_frames: true
+  output_path: main.v001.slp.predictions.slp
+  tracking: {}
+  type: labels
+training:
+- cfg: centroid.json
+  run_path: models/240409_214243.centroid
+  train_labels: main.v001.slp
+- cfg: centered_instance.json
+  run_path: models/240409_214243.centered_instance
+  train_labels: main.v001.slp

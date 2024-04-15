@@ -8,6 +8,7 @@
 | Body part   | Definition/location                                                                            |
 | ----------- | ---------------------------------------------------------------------------------------------- |
 | Head        | front-most point on the head, between the mandibles (if they are visible)                      |
+| Neck	      | point between the head and the front-most point of the thorax				       |
 | UpperThorax | point between the first and second segments of the thorax                                      |
 | LowerThorax | rear-most point on the second segment of the thorax where the hind legs are joined to the body |
 | Petiole     | rear-most end of the segment joining the thorax to the gaster/front-most end of the gaster     |

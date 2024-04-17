@@ -1,28 +1,26 @@
 {
     "data": {
         "labels": {
-            "training_labels": "D:/Documents/COMP3850-Group23-Ant-posture/datasets/main.v001.slp",
+            "training_labels": null,
             "validation_labels": null,
-            "validation_fraction": 0.2,
+            "validation_fraction": 0.1,
             "test_labels": null,
             "split_by_inds": false,
             "training_inds": null,
             "validation_inds": null,
             "test_inds": null,
-            "search_path_hints": [
-                ""
-            ],
+            "search_path_hints": [],
             "skeletons": []
         },
         "preprocessing": {
             "ensure_rgb": false,
-            "ensure_grayscale": true,
+            "ensure_grayscale": false,
             "imagenet_mode": null,
             "input_scaling": 0.5,
-            "pad_to_stride": 16,
+            "pad_to_stride": null,
             "resize_and_pad_to_target": true,
-            "target_height": 2160,
-            "target_width": 3840
+            "target_height": null,
+            "target_width": null
         },
         "instance_cropping": {
             "center_on_part": null,
@@ -35,7 +33,7 @@
             "leap": null,
             "unet": {
                 "stem_stride": null,
-                "max_stride": 32,
+                "max_stride": 16,
                 "output_stride": 2,
                 "filters": 16,
                 "filters_rate": 2.0,
@@ -67,8 +65,8 @@
         "preload_data": true,
         "augmentation_config": {
             "rotate": true,
-            "rotation_min_angle": -180.0,
-            "rotation_max_angle": 180.0,
+            "rotation_min_angle": -15.0,
+            "rotation_max_angle": 15.0,
             "translate": false,
             "translate_min": -5,
             "translate_max": 5,
@@ -90,16 +88,16 @@
             "random_crop": false,
             "random_crop_height": 256,
             "random_crop_width": 256,
-            "random_flip": false,
+            "random_flip": true,
             "flip_horizontal": false
         },
         "online_shuffling": true,
         "shuffle_buffer_size": 128,
         "prefetch": true,
         "batch_size": 2,
-        "batches_per_epoch": 200,
+        "batches_per_epoch": null,
         "min_batches_per_epoch": 200,
-        "val_batches_per_epoch": 10,
+        "val_batches_per_epoch": null,
         "min_val_batches_per_epoch": 10,
         "epochs": 100,
         "optimizer": "adam",
@@ -127,15 +125,15 @@
     },
     "outputs": {
         "save_outputs": true,
-        "run_name": "240410_100714",
+        "run_name": "240417_192635.centroid.n=80",
         "run_name_prefix": "",
-        "run_name_suffix": ".centroid",
-        "runs_folder": "models",
+        "run_name_suffix": "",
+        "runs_folder": "D:/Documents/COMP3850-Group23-Ant-posture/datasets\\models",
         "tags": [
             ""
         ],
         "save_visualizations": true,
-        "delete_viz_images": false,
+        "delete_viz_images": true,
         "zip_outputs": false,
         "log_to_csv": true,
         "checkpointing": {
@@ -163,5 +161,5 @@
     "name": "",
     "description": "",
     "sleap_version": "1.3.3",
-    "filename": "centroid.json"
+    "filename": "D:/Documents/COMP3850-Group23-Ant-posture/datasets\\models\\240417_192635.centroid.n=80\\initial_config.json"
 }

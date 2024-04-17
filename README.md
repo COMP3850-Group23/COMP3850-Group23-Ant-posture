@@ -17,7 +17,7 @@
 /datasets - labelled datasets  
 /models - trained models  
 /notebooks - Jupyter notebooks  
-/docs - documents replicated from Google Docs
+/docs - documents replicated from Google Docs  
 /scripts - other useful scripts and applications
 
 ## Instructions

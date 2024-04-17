@@ -135,7 +135,7 @@
             ""
         ],
         "save_visualizations": true,
-        "delete_viz_images": true,
+        "delete_viz_images": false,
         "zip_outputs": false,
         "log_to_csv": true,
         "checkpointing": {

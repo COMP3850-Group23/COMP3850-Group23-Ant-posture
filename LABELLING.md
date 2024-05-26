@@ -1,9 +1,3 @@
-## Instructions
-- Use the full-sized videos, not the cropped videos
-- Aim for 20 labelled instances per frame
-- Label at least 20 frames per video
-- Store each labelled video as a separate SLEAP dataset
-
 ## Body part definitions
 | Body part   | Definition/location                                                                            |
 | ----------- | ---------------------------------------------------------------------------------------------- |
